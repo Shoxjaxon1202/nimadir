@@ -1,0 +1,30 @@
+body {
+  margin: 100px;
+}
+table {
+  background: linear-gradient(
+    90deg,
+    rgb(69, 69, 219),
+    rgb(187, 23, 187),
+    rgb(174, 97, 110)
+  );
+  border-collapse: collapse;
+}
+th,
+td {
+  width: 120px;
+}
+
+th,
+td {
+  text-align: start;
+  padding: 10px;
+  color: white;
+}
+td:hover,
+th:hover {
+  background-color: rgb(216, 202, 202);
+}
+thead {
+  background: linear-gradient(90deg, rgb(97, 97, 241), rgb(238, 123, 238));
+}
